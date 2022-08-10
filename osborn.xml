@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="kaisaier/device_smartisan_osborn" path="device/smartisan/osborn" remote="github" revision="lineage-19.1" />
-  <project name="kaisaier/device_smartisan_sdm660-common" path="device/smartisan/sdm660-common" remote="github" revision="lineage-19.1 />
-  <project name="kaisaier/kernel_smartisan_sdm660" path="kernel/smartisan/sdm660" remote="github" revision="lineage-19.1 />
-  <project name="kaisaier/vendor_smartisan_osborn" path="vendor/smartisan/osborn" remote="github" revision="lineage-19.1 />
-  <project name="kaisaier/vendor_smartisan_sdm660-common" path="vendor/smartisan/sdm660-common" remote="github" revision="lineage-19.1 />
+	<project name="kaisaier/device_smartisan_osborn" path="device/smartisan/osborn" remote="github" revision="lineage-19.1" />
+	<project name="kaisaier/device_smartisan_sdm660-common" path="device/smartisan/sdm660-common" remote="github" revision="lineage-19.1" />
+	<!-- project name="kaisaier/kernel_smartisan_sdm660" path="kernel/smartisan/sdm660" remote="github" revision="lineage-19.1" / -->
+	<!-- using kenel 4.19 branch -->
+	<project name="kaisaier/kernel_smartisan_sdm660" path="kernel/smartisan/sdm660" remote="github" revision="kernel_4.19" />
+	<project name="kaisaier/vendor_smartisan_osborn" path="vendor/smartisan/osborn" remote="github" revision="lineage-19.1" />
+	<project name="kaisaier/vendor_smartisan_sdm660-common" path="vendor/smartisan/sdm660-common" remote="github" revision="lineage-19.1" />
 </manifest>
